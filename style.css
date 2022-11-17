@@ -1,0 +1,7 @@
+body {
+    background-color: blue;
+}
+
+bk-powered-footer.bk-embed.bk-embed-powered-by-ts-ribbon {
+    display: none !important;
+}
