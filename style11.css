@@ -12,6 +12,11 @@ body {
     display: none !important;
 }
 
+/* Hiding Header */
+.bk-pinboard-data-viz .bk-pinboard-viz-header {
+    display: none !important;
+}
+
 /* removing extra chart padding */
 .bk-pinboard-data-viz {
     padding: 0 !important;
