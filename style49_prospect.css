@@ -64,12 +64,10 @@ body {
   color: #1a1f22 !important;
 }
 .tile-container .tile-size-xs .bk-title {
-  font-size: 107.167% !important;
+  font-size: 13px !important;
   font-weight: 300 !important;
   line-height: 16px !important;
-  color: rgb(89, 89, 89) !important;
-  font-family: "QlikView Sans", sans-serif !important;
-  margin: 0px !important;
+  color: #4c4c4c !important;
 }
 
 .tile-size-xs .bk-title-description .bk-title-section {
@@ -78,12 +76,10 @@ body {
 }
 
 .kpi-module__hero {
-  font-size: 426.999% !important;
+  font-size: 32px !important;
   font-weight: 300 !important;
-  line-height: normal !important;
-  color: rgb(68, 119, 170) !important;
-  font-family: "QlikView Sans", sans-serif !important;
-  margin: 0px !important;
+  line-height: 33px !important;
+  color: #0279ff !important;
 }
 .kpi-module__heroDataContainer {
   display: flex !important;
@@ -93,65 +89,72 @@ body {
 
 @media (min-width: 1014px) and (max-width: 1279px) {
   .tile-size-xs .kpi-module__hero {
-    font-size: 426.999% !important;
+    font-size: 32px !important;
     font-weight: 300 !important;
-    line-height: normal !important;
-    color: rgb(68, 119, 170) !important;
-    font-family: "QlikView Sans", sans-serif !important;
-    margin: 0px !important;
+    line-height: 33px !important;
+    color: #0279ff !important;
   }
 }
 
 @media (max-width: 1013px) {
   .tile-size-xs .kpi-module__hero {
-    font-size: 426.999% !important;
+    font-size: 32px !important;
     font-weight: 300 !important;
-    line-height: normal !important;
-    color: rgb(68, 119, 170) !important;
-    font-family: "QlikView Sans", sans-serif !important;
-    margin: 0px !important;
+    line-height: 33px !important;
+    color: #0279ff !important;
   }
 }
 
 .bk-pinboard-data-viz .bk-pinboard-viz-header {
-  -webkit-flex-basis: 24px !important;
-  flex-shrink: 24px !important;
+  -webkit-flex-basis: 40px !important;
+  flex-shrink: 40px !important;
 }
 
 .bk-pinboard-data-viz {
-  padding: 5px !important;
+  padding: 0px !important;
 }
 
 .tile-container .tile-size-xs {
-  width: 24.25% !important;
+  width: 16.25% !important;
+  top: unset !important;
+  left: unset !important;
+  position: relative !important;
 }
 
 .bk-pinboard-data-viz {
   box-shadow: none !important;
 }
 
-/* .tile-size-xs .bk-pinboard-data-viz {
+.tile-size-xs .bk-pinboard-data-viz {
   border-left: 1px solid #efefef;
-} */
+}
 
 .tile-size-xs .bk-pb-card-action-menu {
   display: none !important;
 }
 
-.chartSection
-  .vizWrapper
-  .bk-axis-label-container
-  .bk-axis-label-control:hover
-  .bk-icon-arrow-down {
-  opacity: 0 !important;
+.grid-sizer.tile-size-xs {
+  display: none !important;
 }
 
-body .popover-module__positionable.popover-module__in {
+.gutter-sizer.tile-gutter {
   display: none !important;
+}
+
+.tile-container {
+  display: flex !important;
+  justify-content: space-around !important;
+  height: auto !important;
 }
 
 .bk-sharable-item-content-container {
   overflow-y: hidden !important;
+}
+
+/* Expand-collapse box-shadowing none */
+
+.MuiButtonBase-root.MuiFab-root.MuiFab-circular.MuiFab-sizeSmall.MuiFab-default.MuiFab-root:active {
+  box-shadow: none !important;
 }
 
 .bk-embed-powered-by-ts-ribbon .bk-powered-footer {
@@ -188,12 +191,10 @@ body .popover-module__positionable.popover-module__in {
 }
 
 .tile-extraSmall .answer-title-module__titleText {
-  font-size: 107.167% !important;
+  font-size: 13px !important;
   font-weight: 300 !important;
   line-height: 16px !important;
-  color: rgb(89, 89, 89) !important;
-  font-family: "QlikView Sans", sans-serif !important;
-  margin: 0px !important;
+  color: #4c4c4c !important;
 }
 
 .pinboard-content-module__tile {
